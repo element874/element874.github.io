@@ -12,15 +12,20 @@ toc_icon: "cog"
 
 
 <h2><a id="sec1">第1章</a></h2>
-hoge
+hoge<br>
 hoge
 
 
 <h2><a id="sec2">第２章</a></h2>
 huga
+
+
 huga
 
 
 <h2><a id="sec3">第３章</a></h2>
 foo
+
+
+
 foo
