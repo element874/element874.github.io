@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: https://www.element874.blog/
   # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
+  #   url: https://www.element874.blog/about/
+  # - title: "Author"
+  #   url: https://www.element874.blog/author/
+  # - title: "Categories"
   #   url: /collection-archive/
-  # - title: "Sitemap"
+  # - title: "Games"
   #   url: /sitemap/
