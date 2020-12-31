@@ -112,9 +112,6 @@ author:
       icon: "fab fa-fw fa-link"
       url: "http://pepsilover.blog.jp/"
 
-header:
-  image: /assets/images/testlogo1280.png
-
 # Site Footer
 footer:
   links:
