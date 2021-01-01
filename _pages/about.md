@@ -2,6 +2,7 @@
 toc: true
 toc_label: "目次"
 toc_icon: "cog"
+permalink: /about.html
 ---
 
 <h2><a id="sec1">このブログの概要</a></h2>
