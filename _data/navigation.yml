@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: https://www.element874.blog/
-  # - title: "About"
-  #   url: https://www.element874.blog/about/
+  - title: "About"
+    url: https://www.element874.blog/about/
   # - title: "Author"
   #   url: https://www.element874.blog/author/
   # - title: "Categories"
