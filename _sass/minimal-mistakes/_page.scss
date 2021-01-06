@@ -215,10 +215,12 @@ body {
 }
 
 .page__hero-image {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
   width: auto;
   height: auto;
-  text-align: center;
-  margin: auto;
   -ms-interpolation-mode: bicubic;
 }
 
