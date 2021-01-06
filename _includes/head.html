@@ -35,3 +35,9 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+{% if page.thumb %}
+  <meta name="twitter:image" content="{{page.thumb}}" />
+{% else %}
+  <meta name="twitter:image" content="/assets/images/testlogo1280.png" />
+{% endif %}
