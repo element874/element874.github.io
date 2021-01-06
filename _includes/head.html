@@ -39,5 +39,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@element874_re" />
 {% if page.thumb %}
-  <meta property="twitter:image" content="{{ page.thumb }}" />
+  <meta name="twitter:image" content="{{ page.thumb }}" />
+{% else %}
+  <meta name="twitter:image" content="/assets/images/testlogo1280.png" />
 {% endif %}
