@@ -111,6 +111,9 @@ author:
     - label: "ペプシが欲しい人"
       icon: "fab fa-fw fa-link"
       url: "http://pepsilover.blog.jp/"
+    - label: "凸ドラスの部屋"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/user/dekodoras2nd"
 
 # Site Footer
 footer:
