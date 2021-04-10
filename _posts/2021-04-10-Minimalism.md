@@ -5,7 +5,7 @@ toc_icon: "cog"
 header:
     image: /assets/images/PowerToys_Logo2.jpg
     teaser: /assets/images/Elite2.jpg
-thumb: 
+thumb: /assets/images/Elite2.jpg
 title: "元素さん流ミニマリズム！少しだけ物を減らした話"
 ---
 
