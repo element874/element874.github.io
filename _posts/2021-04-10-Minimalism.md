@@ -4,7 +4,7 @@ toc_label: "目次"
 toc_icon: "cog"
 header:
     image: /assets/images/PowerToys_Logo2.jpg
-    teaser: /assets/images/PowerToys_Logo.jpg
+    teaser: /assets/images/Elite2.jpg
 thumb: 
 title: "元素さん流ミニマリズム！少しだけ物を減らした話"
 ---
