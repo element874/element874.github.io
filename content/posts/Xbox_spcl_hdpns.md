@@ -1,6 +1,6 @@
 ---
 title: "Xboxのヘッドホン用空間オーディオについて"
-date: 2022-05-20T10:56:02+09:00
+date: 2022-05-29T10:56:02+09:00
 draft: false
 
 image: "images/post/Xbox_spcl_hdpns/header.png"
