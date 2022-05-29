@@ -1,0 +1,140 @@
+######################## default configuration ####################
+baseURL = "https://www.element874.blog"
+languageCode = "ja-jp"
+defaultContentLanguage = 'jp'
+title = "元素さんわーるど！！"
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 12
+disqusShortname = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+
+############################## navigation ###############################
+[menu]
+
+  # main menu
+  # [[menu.main]]
+  # name = "About"
+  # URL = "about"
+  # weight = 1
+
+  # [[menu.main]]
+  # name = "Author"
+  # URL = "author"
+  # weight = 2
+
+  [[menu.main]]
+  name = "Contact"
+  URL = "https://twitter.com/element874_Re/"
+  weight = 3
+
+  # footer menu
+  # [[menu.footer]]
+  # name = "About"
+  # URL = "about"
+  # weight = 1
+
+  # [[menu.footer]]
+  # name = "Author"
+  # URL = "author"
+  # weight = 2
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "https://twitter.com/element874_Re/"
+  weight = 3
+
+
+#################### default parameters ################################
+[params]
+logo = "images/blog/logo.png"
+home = "Home"
+Image = "images/blog/toppage.png"
+thumb = "images/blog/thumb.png"
+# Meta data
+description = "ゲームのための音響環境と、ガジェット関連のはなし"
+author = "元素さん"
+# Google Analitycs
+# googleAnalitycsID = "Your ID"
+# copyright
+copyright = "| copyright &copy; 2021 [元素さん](https://twitter.com/element874_Re/) All Rights Reserved |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################ news letter ########################
+# [params.newsletter]
+# enable = true
+# title = "Join Our Newsletter"
+# content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+
+############################# social site ########################
+[[params.social]]
+title = "Twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "https://twitter.com/element874_Re/"
+
+[[params.social]]
+title = "Xbox Live"
+icon = "ti-game" # themify icon : https://themify.me/themify-icons
+link = "https://account.xbox.com/ja-jp/profile?gamertag=element874"
+
+[[params.social]]
+title = "ペプシが欲しい人"
+icon = "ti-link" # themify icon : https://themify.me/themify-icons
+link = "http://pepsilover.blog.jp/"
+
+[[params.social]]
+title = "凸ドラスの部屋"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/user/dekodoras2nd"
