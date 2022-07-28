@@ -21,7 +21,15 @@
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
 
-  <meta name="thumbnail" content="{{.Site.Params.thumb}}"/>
+  <meta name="thumbnail" content="{{.Params.thumb | absURL }}"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image" content="{{.Params.thumb | absURL }}"/>
+  <meta name="twitter:site" content="@element874_re">
+  <meta name="twitter:title" content="{{.Params.title}}">
+  <meta property="og:title" content="{{.Params.title}}">
+  <meta property="og:description" content="{{.Params.description}}">
+  <meta property="og:image" content="{{.Params.thumb | absURL }}">
+  <meta property="og:url" content="{{ .URL | absURL }}">
 
   {{ "<!-- google analitycs -->" | safeHTML }}
   <script>
