@@ -28,7 +28,7 @@
   <meta property="og:title" content="{{.Params.title}}">
   <meta property="og:description" content="{{.Params.description}}">
   <meta property="og:image" content="{{.Params.thumb | absURL }}">
-  <meta property="og:url" content="{{ .URL | absURL }}">
+  <meta property="og:url" content="{{ .Params.url | absURL }}">
   
   {{ "<!-- google analitycs -->" | safeHTML }}
 
