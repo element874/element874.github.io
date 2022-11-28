@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="ブログをリニューアルした経緯のおはなし">
   <meta name="author" content="元素さん">
-  <meta name="generator" content="Hugo 0.91.2" />
+  <meta name="generator" content="Hugo 0.106.0">
 
   <!-- plugins -->
   
@@ -35,7 +35,7 @@
   <meta property="og:title" content="元素さんわーるど！！リニューアル！！">
   <meta property="og:description" content="ブログをリニューアルした経緯のおはなし">
   <meta property="og:image" content="https://www.element874.blog/images/blog/thumb.png">
-  <meta property="og:url" content="https://www.element874.blog/posts/renewal/">
+  <meta property="og:url" content="https://www.element874.blog">
   
   <!-- google analitycs -->
 
@@ -81,7 +81,7 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/element874_Re/">Contact</a>
+            <a class="nav-link" href="https://www.element874.blog">Contact</a>
           </li>
           
           
@@ -132,7 +132,7 @@
 <p>タイトルの通り、ブログをリニューアルしました。3度目のリニューアルになります。
 今回はリニューアルの経緯や今後の展望などについて書きたいと思います。<br>
 いくぞー！(✿ﾟ▽ﾟ)ノ<br></p>
-<h2 id="目次">目次</h2>
+<h3 id="目次">目次</h3>
 <ul>
 <li><a href="#sec1">空白期間の原因</a></li>
 <li><a href="#sec2">JekyllとHugo</a></li>
@@ -141,23 +141,23 @@
 <li><a href="#sec5">あとがき</a>
 <br><br></li>
 </ul>
-<h2><a id="sec1">空白期間の原因</a></h2>
+<h3><a id="sec1">空白期間の原因</a></h3>
 半年以上更新できなかった理由、それはPCを初期化した際にブログのビルド環境が吹っ飛んでしまったからです。ビルド環境が無いと、具体的にはこのような悪影響があります。<br><br>
 <ul>
 <li>編集中にプレビューができなません。つまり記事を公開するまでどのように表示されるか見れません。</li>
 <li>記事がテンプレートに沿って自動生成されません。よって目次や見出しなど毎回書く要素を手打ちする必要があります。</li>
 </ul>
 <p>このような状況でのブログ編集は快適ではないでしょう。しかし復旧しようにも不思議なエラーが発生してしまい、環境構築ができませんでした。<br><br></p>
-<h2><a id="sec2">JekyllとHugo</a></h2>
+<h3><a id="sec2">JekyllとHugo</a></h3>
 リニューアル前のブログでは、Jekyllという静的サイトジェネレーターを使用していました。パソコンを初期化した後にこのJekyllがインストールできなくなりました。何度挑戦してもJekyllのインストールでエラーが発生してしまい、環境復旧が難しいということでJekyll以外のジェネレーターを使おうと判断しました。<br><br>
 そこで今回採用したのがHugoというジェネレーターです。私が使ってみた範囲で感じたJekyllとHugoの最大の違いはビルド環境の在り方です。私が使用しているサーバーでは、Jekyllのビルド環境がなくても元ファイルをアップロードするだけでウェブサイトを構築してくれます。一方Hugoでは手元でビルドして手元のマシンでビルドしてからサーバーにアップロードしなければwebサイトが表示されません。一見するとこちらの方が使い勝手が良さそうに聞こえますが、そうではありません。<br><br>
 前述の通り手元にビルド環境がないと不便です。Hugoの環境構築は、ダウンロードして適当なディレクトリに置いてパスを通すだけです。環境構築が非常に容易であることから、仮にパソコンを買い替えたり初期化したりしても編集を続けられるだろうという安心感があります。<br><br>
 Jekyllをほとんど使うことなく乗り換えてしまったのでこれ以上の比較はできませんが、Hugoでのブログ編集は非常に快適で気に入っています。それについては今後気が向いたら記事にするかもしれません。<br><br><br>
-<h2><a id="sec3">ブログのデザイン</a></h2>
+<h3><a id="sec3">ブログのデザイン</a></h3>
 今回のリニューアルではHugoのテンプレート<a href="https://themes.gohugo.io/themes/liva-hugo/" target="blank">liva-hugo</a>を使用しました。liva-hugoのデモサイトを見てもらうと分かる通り、かなりデザインをいじりました。ビビッときたテンプレートが59ドルとなかなかの値段お値段だったので、悩みに悩み抜いた結果無料のものを改変しようと決心しました。殺風景で特徴がないのが特徴といった今回のブログのデザインには理由があります。余裕があれば挑戦したいと思っているくらいなんですけど、将来的にはブログのデザインを作りこみたいと思っています。最終的な完成形に存在しない機能を、今の時点で実装するのは良くないと思い今回は必要最低限の機能にとどめました。しかしながらHTMLは全くわからないので、ブログのデザインが完成するのは何年後になるんでしょうね…<br><br><br>
-<h2><a id="sec4">記事の書き方</a></h2>
+<h3><a id="sec4">記事の書き方</a></h3>
 ジェネレータ意外にも変わった点があります。それは記事の文面を書くのにWindows11の音声入力を導入しました。文章を考えながらキーボードで打つと、この文章なんか違うなと思った瞬間に一気にロールバックしてしまってなかなか筆が進みません。今回の記事は音声入力で全文を一気に入力した後編集をするという形を取りました。それにより記事を書くのが大幅に効率化された気がします（当社比）。<br><br><br>
-<h2><a id="sec5">あとがき</a></h2>
+<h3><a id="sec5">あとがき</a></h3>
 そんなこんなで今回はブログのリニューアルについてのお話でした。今後は記事の更新はもちろんのこと、ブログの機能の拡充や、過去のブログから記事を移植したりしようと思います。ブログは刷新しましたが、書いていくことはこれからも変わりません。ゲームやガジェット、音響などについて自由気ままに書き連ねます。<br>
 これからは新たな「元素さんわーるど」をよろしくお願いします！
         </div>
@@ -202,6 +202,9 @@ Jekyllをほとんど使うことなく乗り換えてしまったのでこれ�
               href="/categories/nintendo-switch">Nintendo switch</a>
           </li>
           <li class="mb-3"><a class="text-dark"
+              href="/categories/pc">PC</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
               href="/categories/xbox">Xbox</a>
           </li>
           <li class="mb-3"><a class="text-dark"
@@ -214,7 +217,7 @@ Jekyllをほとんど使うことなく乗り換えてしまったのでこれ�
               href="/categories/%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%a9%e3%83%bc">コントローラー</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/categories/%e5%b9%b4%e6%9c%ab%e6%81%92%e4%be%8b%e8%a8%98%e4%ba%8b">年末恒例記事</a>
+              href="/categories/%e5%b9%b4%e6%9c%ab%e5%b9%b4%e5%a7%8b%e6%81%92%e4%be%8b%e8%a8%98%e4%ba%8b">年末年始恒例記事</a>
           </li>
           <li class="mb-3"><a class="text-dark"
               href="/categories/%e9%9f%b3%e6%a5%bd">音楽</a>
@@ -249,9 +252,6 @@ Jekyllをほとんど使うことなく乗り換えてしまったのでこれ�
               href="/tags/%e7%96%91%e4%bc%bc%e3%82%b5%e3%83%a9%e3%82%a6%e3%83%b3%e3%83%89">疑似サラウンド</a>
           </li>
           <li class="mb-3"><a class="text-dark"
-              href="/tags/%e7%96%91%e4%bc%bc%e7%ab%8b%e4%bd%93%e9%9f%b3%e9%9f%bf">疑似立体音響</a>
-          </li>
-          <li class="mb-3"><a class="text-dark"
               href="/tags/%e8%b2%b7%e3%81%a3%e3%81%a6%e8%89%af%e3%81%8b%e3%81%a3%e3%81%9f%e3%82%82%e3%81%ae">買って良かったもの</a>
           </li>
         </ul>
@@ -260,7 +260,7 @@ Jekyllをほとんど使うことなく乗り換えてしまったのでこれ�
         <h6 class="mb-4">Quick Links</h6>
         <ul class="list-unstyled">
           
-          <li class="mb-3"><a class="text-dark" href="https://twitter.com/element874_Re/">Contact</a></li>
+          <li class="mb-3"><a class="text-dark" href="https://www.element874.blog">Contact</a></li>
           
         </ul>
       </div>
